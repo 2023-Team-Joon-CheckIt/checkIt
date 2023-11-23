@@ -1,8 +1,9 @@
 # CheckIt
 
-## **Introduction**
+## **🍀 Introduction**
 
-![스크린샷 2023-11-22 오후 9.46.59.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/cea18d12-6bc3-41d2-a60e-7e9e4cba29e6/f88dd058-e29c-4bae-92ad-07e47cab3f80/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-11-22_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_9.46.59.png)
+<img width="269" alt="스크린샷 2023-11-22 오후 9 46 59" src="https://github.com/2023-Team-Joon-CheckIt/checkIt/assets/85063965/5ad668a4-e445-4378-954f-8be4c413d0c1">
+
 
 > **그래프 기반 독서 기록 서비스**
 > 
@@ -13,20 +14,30 @@
 > - 일주일 독서 추세를 그래프로 볼 수 있어요
 > 
 
-## **System Architecture**
+<br>
+
+## **📌 System Architecture**
 
 ///// 아키텍처 /////
 
-## **Tech Stack**
+<br>
 
-- Frontend
-- Backend
-- Database&Storage
-- DevOps
+## **📚 Tech Stack**
+
+
+|Frontend|Backend|Test|Database|DevOps| 
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=Vite&logoColor=white"><br> | <br><img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"><br><img src="https://img.shields.io/badge/rabbitmq-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white"><br><img src="https://img.shields.io/badge/logstash-005571?style=for-the-badge&logo=logstash&logoColor=white"><br><img src="https://img.shields.io/badge/elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white"><br> | <img src="https://img.shields.io/badge/junit5-25A162?style=for-the-badge&logo=junit5&logoColor=white"><br> | <img src="https://img.shields.io/badge/redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"><br><img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"><br><img src="https://img.shields.io/badge/mongodb-47A248?style=for-the-badge&logo=mongodb&logoColor=white"><br> | <img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=NGINX&logoColor=white"><br> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white"><br><img src="https://img.shields.io/badge/Amazon EC2 -FF9900?style=for-the-badge&logo=Amazon EC2&logoColor=white"><br><img src="https://img.shields.io/badge/Github Actions-2088FF?style=for-the-badge&logo=Github Actions&logoColor=white"><br>| 
+
+
+<br>
 
 ## How to run
 
-## **Features**
+
+<br>
+
+## **🔍 Features**
 
 - 메인 페이지 + 로그인
     
@@ -65,27 +76,29 @@
     - **Chart.js** 를 이용한 독서 기록 시각화
         - 완독 날짜를 기준, 일주일 단위로 독서량 체크
 
+<br>
+
 ## Swagger
 
 Frontend와 Backend 통신을 위한 API 문서화는 Swagger를 이용했다.
 
-![스크린샷 2023-11-22 오후 9.36.42.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/cea18d12-6bc3-41d2-a60e-7e9e4cba29e6/07b62093-ec59-47d7-b07d-f6ad47e30f48/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-11-22_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_9.36.42.png)
+<img width="885" alt="swagger 1" src="https://github.com/2023-Team-Joon-CheckIt/checkIt/assets/85063965/f5e4b3d2-dfe9-4ff7-a2e2-aa116340cead">
+<img width="883" alt="swagger 2" src="https://github.com/2023-Team-Joon-CheckIt/checkIt/assets/85063965/deb8e447-2ebb-4156-acff-ccc10e0ee484">
+<img width="881" alt="swagger 3" src="https://github.com/2023-Team-Joon-CheckIt/checkIt/assets/85063965/f03d9a38-5f88-48b0-a00d-4f914c92d01c">
+<img width="882" alt="swagger 4" src="https://github.com/2023-Team-Joon-CheckIt/checkIt/assets/85063965/4677c4f0-0e31-44eb-8089-dfcbda8bcba3">
 
-![스크린샷 2023-11-22 오후 9.36.57.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/cea18d12-6bc3-41d2-a60e-7e9e4cba29e6/84bda430-a90e-4d0c-a407-658b8edbd8ef/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-11-22_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_9.36.57.png)
-
-![스크린샷 2023-11-22 오후 9.37.11.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/cea18d12-6bc3-41d2-a60e-7e9e4cba29e6/05c59264-e130-48f8-b45d-933631a5112a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-11-22_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_9.37.11.png)
-
-![스크린샷 2023-11-22 오후 9.37.22.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/cea18d12-6bc3-41d2-a60e-7e9e4cba29e6/ba1849cb-a6fe-4193-9406-9bc1f1a75d0a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-11-22_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_9.37.22.png)
+<br>
 
 ## ERD
 
-![스크린샷 2023-10-28 오전 1.10.41.png](https://file.notion.so/f/f/cea18d12-6bc3-41d2-a60e-7e9e4cba29e6/cbe45bdc-8272-46ad-a5fd-c13ee2005205/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-10-28_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_1.10.41.png?id=73063164-8b9f-4c09-9a23-9046b35b00bd&table=block&spaceId=cea18d12-6bc3-41d2-a60e-7e9e4cba29e6&expirationTimestamp=1700755200000&signature=Wq2c8SMtxfLmz98LA0I3FVSxDASooDbvbHp5IsM6__A&downloadName=%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA+2023-10-28+%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB+1.10.41.png)
+<img width="1036" alt="erd" src="https://github.com/2023-Team-Joon-CheckIt/checkIt/assets/85063965/4ef95cd9-6c51-4a1f-9e19-ea47226134ec">
 
-## Our Team
+<br>
 
+##👥 Our Team
 
-| Name | 박희경 | 송지민 | 김선재 | 정우희 | 권찬영 | 고원준 | |
-| ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
+| Name | 박희경 | 송지민 | 김선재 | 정우희 | 권찬영 | 고원준 |
+| ------- | ------- | ------- | ------- | ------- | ------- | ------- |
 | Profile | <img width="100px" alt="박희경" src="https://avatars.githubusercontent.com/u/101381901?v=4"> | <img width="100px" alt="송지민" src="https://avatars.githubusercontent.com/u/84628898?v=4"> | <img width="100px" alt="김선재" src="https://avatars.githubusercontent.com/u/83015089?v=4"> | <img width="100px" alt="정우희" src="https://avatars.githubusercontent.com/u/121246589?v=4"> | <img width="100px" alt="권찬영" src="https://avatars.githubusercontent.com/u/85063965?v=4"> | <img width="100px" alt="고원준" src="https://avatars.githubusercontent.com/u/86594108?v=4"> | 
 | Role | Backend, DevOps | Backend, DevOps | Frontend | Frontend | Backend | Frontend | 
 | gitHub  | [@gmlrude](https://github.com/gmlrude) | [jiminsong490](https://github.com/jiminsong490) | [@sunjae98](https://github.com/sunjae98) | [@Joy0w0](https://github.com/Joy0w0) | [@fnzl54](https://github.com/fnzl54) | [@KoneJ](https://github.com/KoneJ) | 
