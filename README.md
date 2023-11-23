@@ -56,8 +56,7 @@ docker-compose up —build
 ## **🔍 Features**
 
 - 메인 페이지 + 로그인
-    
-    //////////////////// gif ////////////////////
+    ![메인](https://github.com/2023-Team-Joon-CheckIt/checkIt/assets/85063965/46607bee-68b9-4fd2-a2a7-2b1e58b1837f)
     
     - 밀리의 서재 서비스와 비슷하게 구현
     - 스크롤 위치에 따른 이벤트를 적용시켜 동적인 메인페이지 퍼블리싱 진행
@@ -76,16 +75,14 @@ docker-compose up —build
     - 좋아요 기능
         - 좋아요 버튼을 눌러 “찜한 책” 등록 가능
 - 내 서재 페이지
-    
-    //////////////////// gif ////////////////////
+    ![내서재](https://github.com/2023-Team-Joon-CheckIt/checkIt/assets/85063965/0b431e65-e080-4420-9ae1-885df1800e20)
     
     - Pagination 을 이용하여 서재 구현
         - 읽은 페이지 기록
         - 리뷰 작성 기능
 - 독서 통계 페이지
-    
-    //////////////////// gif ////////////////////
-    
+    ![통계](https://github.com/2023-Team-Joon-CheckIt/checkIt/assets/85063965/7ce99eb5-8252-4d86-b1a1-1669ccfc6a84)
+
     - **Three.js** 를 이용한 독서 기록 시각화
         - 읽은 책의 페이지 수에 따라 책 컴포넌트 두께를 다르게 설정
         - 추후 책 표지에 책 이름 및 책 선택 효과를 더 동적으로 구현 예정
