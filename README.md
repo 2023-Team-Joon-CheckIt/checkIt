@@ -17,8 +17,7 @@
 <br>
 
 ## **📌 System Architecture**
-
-//////////////////// 아키텍처 ////////////////////
+![image (4)](https://github.com/2023-Team-Joon-CheckIt/checkIt/assets/86594108/f2cf6a39-3ad3-4606-aaf0-800b77abcdcd)
 
 <br>
 
@@ -61,8 +60,8 @@ docker-compose up —build
     - 밀리의 서재 서비스와 비슷하게 구현
     - 스크롤 위치에 따른 이벤트를 적용시켜 동적인 메인페이지 퍼블리싱 진행
 - 검색 페이지
-    
-    //////////////////// gif ////////////////////
+    ![검색3](https://github.com/2023-Team-Joon-CheckIt/checkIt/assets/86594108/d3612d60-0f83-41e6-b8fe-de18bb2e6cbd)
+
     
     - swiper 를 사용한 슬라이더 구현
     - 인기있는 도서 안내
@@ -82,12 +81,16 @@ docker-compose up —build
         - 리뷰 작성 기능
 - 독서 통계 페이지
     ![통계](https://github.com/2023-Team-Joon-CheckIt/checkIt/assets/85063965/7ce99eb5-8252-4d86-b1a1-1669ccfc6a84)
-
+  
     - **Three.js** 를 이용한 독서 기록 시각화
         - 읽은 책의 페이지 수에 따라 책 컴포넌트 두께를 다르게 설정
-        - 추후 책 표지에 책 이름 및 책 선택 효과를 더 동적으로 구현 예정
     - **Chart.js** 를 이용한 독서 기록 시각화
         - 완독 날짜를 기준, 일주일 단위로 독서량 체크
+- 관리자 문의하기 채팅 기능
+    ![문의하기](https://github.com/2023-Team-Joon-CheckIt/checkIt/assets/86594108/cc8d017a-951d-4222-81e8-0de8b5e9c156)
+
+    - 웹소켓을 사용한 실시간 통신 구현
+        - WebSocket + STOMP를 활용한 실시간 관리자 채팅 구현
 
 <br>
 
