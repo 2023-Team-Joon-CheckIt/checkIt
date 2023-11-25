@@ -60,9 +60,8 @@ docker-compose up —build
     - 밀리의 서재 서비스와 비슷하게 구현
     - 스크롤 위치에 따른 이벤트를 적용시켜 동적인 메인페이지 퍼블리싱 진행
 - 검색 페이지
-    ![검색3](https://github.com/2023-Team-Joon-CheckIt/checkIt/assets/86594108/d3612d60-0f83-41e6-b8fe-de18bb2e6cbd)
 
-    
+   ![검색3](https://github.com/2023-Team-Joon-CheckIt/checkIt/assets/86594108/d3612d60-0f83-41e6-b8fe-de18bb2e6cbd)
     - swiper 를 사용한 슬라이더 구현
     - 인기있는 도서 안내
         - 가장 좋아요 수를 많이 받은 책
